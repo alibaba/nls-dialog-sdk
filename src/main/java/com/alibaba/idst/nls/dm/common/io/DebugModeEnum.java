@@ -23,7 +23,12 @@ public enum DebugModeEnum {
     /**
      * 在flow之后
      */
-    AFTER_FLOW(2);
+    AFTER_FLOW(2),
+
+    /**
+     * 为对外的toolkit的debug标识
+     */
+    FOR_PUBLIC_TOOLKIT(3);
 
     int value;
 
